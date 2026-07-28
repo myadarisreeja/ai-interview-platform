@@ -1,0 +1,12 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/launch.json
+.idea/
+
+# Environment files
+.env
+.env.local
+uploads/ 
