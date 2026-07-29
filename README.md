@@ -1,4 +1,7 @@
 # InterviewAI — AI-Powered Mock Interview Platform
+🔗 **Live Demo:** https://ai-interview-platform-hazel-beta.vercel.app
+
+*(Note: first request may take a few seconds if the backend has gone idle on Railway's free tier)*
 
 A full-stack web application that generates personalized interview questions from a candidate's resume and provides instant AI-powered feedback on their answers.
 
