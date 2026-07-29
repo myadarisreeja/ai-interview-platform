@@ -26,7 +26,7 @@ public class GeminiApiClient {
 
     public String generateContent(String prompt) {
 
-        String url = apiUrl + "?key=" + apiKey;
+        String url = apiUrl;
 
         Map<String, Object> requestBody = Map.of(
                 "contents", List.of(
@@ -38,6 +38,7 @@ public class GeminiApiClient {
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
+        headers.set("x-goog-api-key", apiKey);
         HttpEntity<Map<String, Object>> requestEntity = new HttpEntity<>(requestBody, headers);
 
         try {
