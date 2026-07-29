@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:8080/api',
+  baseURL: 'https://ai-interview-platform-production-8f2d.up.railway.app/api',
 });
 
 // Automatically attach JWT token to every request, if we have one
